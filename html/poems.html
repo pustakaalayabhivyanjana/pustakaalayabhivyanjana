@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>कविताएँ</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/poems.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">पुस्तकालय</div>
+            <ul>
+                <li><a href="../index.html">मुख्य पृष्ठ</a></li>
+                <li><a href="books.html">पुस्तकें</a></li>
+                <li><a href="stories.html">कहानियाँ</a></li>
+                <li><a href="poems.html">कविताएँ</a></li>
+                <li><a href="novels.html">उपन्यास</a></li>
+                <li><a href="#">अन्य</a></li>
+                <li><a href="#">हमारे बारे में</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="poems-section">
+        <h1>कविताएँ</h1>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="कविताएँ खोजें...">
+            <button onclick="searchPoems()">खोजें</button>
+        </div>
+        <div class="list poems-list">
+            <!-- Poems will be displayed here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 पुस्तकालय वेबसाइट. सर्वाधिकार सुरक्षित.</p>
+    </footer>
+
+    <script src="../js/poems.js"></script>
+</body>
+</html>
